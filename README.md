@@ -1,4 +1,4 @@
-# Typescript + Express
+# Express + Typescript
 
 ## Install required packages
 
