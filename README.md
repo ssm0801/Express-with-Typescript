@@ -42,7 +42,8 @@ If you dont want to configure nodemon then directly update the dev script in pac
 ```json
 {
   "scripts": {
-    "dev": "nodemon ./src/index.ts"
+    "dev": "nodemon ./src/index.ts",
+    "build": "npx tsc"
   }
 }
 ```
@@ -67,7 +68,8 @@ If you have configured nodemon as per above configuration then only update dev s
 ```json
 {
   "scripts": {
-    "dev": "nodemon --watch"
+    "dev": "nodemon --watch",
+    "build": "npx tsc"
   }
 }
 ```
