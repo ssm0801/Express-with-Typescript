@@ -74,7 +74,7 @@ If you have configured nodemon as per above configuration then only update dev s
 }
 ```
 
-Dont add `"type": "module"` in package.json
+Don't add `"type": "module"` in package.json
 
 ## Final
 
